@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SplashScr_IS"
+    android:background="#E61C0E"
+    android:padding="16dp">
+
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:padding="16dp"
+        android:background="@drawable/border">
+
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:src="@drawable/logo"
+        android:id="@+id/logo"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="inventory"
+        android:textSize="40dp"
+        style="@style/sptext"
+        android:id="@+id/tv1"
+        android:layout_toRightOf="@id/logo"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="tracker system"
+        android:textSize="25dp"
+        style="@style/sptext"
+        android:id="@+id/tv2"
+        android:layout_toRightOf="@id/logo"
+        android:layout_below="@id/tv1"
+        android:layout_marginTop="3dp"/>
+
+    </RelativeLayout>
+</LinearLayout>
